@@ -6,7 +6,8 @@ from app.libs.redprints import Redprint
 api = Redprint('user')
 
 
-@api.route('/get')
+# @api.route('/get')
+@api.route('', methods=['GET'])
 def get_user():
-    return 'i am user'
+    return 'i am user vincent'
 
